@@ -111,7 +111,7 @@ export default function Navbar() {
             )}
             {isAuthenticated && (
                 <>
-                    <Link href={`/${locale}/user`} className='flex items-center justify-center mx-2'>
+                    <Link href={`/${locale}/profile`} className='flex items-center justify-center mx-2'>
                         <Button label="Perfil" className="w-full shadow-lg bg-white p-3 rounded-2xl hover:bg-gray-200" />
                     </Link>
                     <div>

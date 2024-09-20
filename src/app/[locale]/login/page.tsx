@@ -40,6 +40,7 @@ export default function LoginPage() {
             console.log("User found");
             localStorage.setItem("user", email);
             localStorage.setItem("isAuthenticated", "true");
+            window.location.href = `/${locale}/profile`;
         } else {
             alert("User not found");
         }
