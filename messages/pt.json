@@ -1,0 +1,31 @@
+{
+    "Index": {
+        "title": "Bem vindo à página inicial"
+    },
+    "Navigation": {
+        "home": "Pagina Inicial",
+        "about": "Sobre Nós",
+        "services": "Serviços",
+        "contact": "Contactos",
+        "login": "Login",
+        "register": "Registar"
+    },
+    "Footer": {
+        "name": "Silvia Vilar Cortinados",
+        "about": "Sobre Nós",
+        "privacyPolicy": "Política de Privacidade",
+        "License": "Licença",
+        "Contact": "Contactos"
+    },
+    "Login": {
+        "title": "Entre na nossa plataforma",
+        "username": "Nome de Utilizador",
+        "email": "Email",
+        "password": "Palavra-passe",
+        "rememberMe": "Lembrar-me",
+        "forgotPassword": "Esqueceu-se da palavra-passe?",
+        "login": "Login",
+        "register": "Registar",
+        "notRegistered": "Não tem conta?"
+    }
+}

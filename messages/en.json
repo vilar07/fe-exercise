@@ -1,0 +1,31 @@
+{
+    "Index": {
+        "title": "Welcome to the index page"
+    },
+    "Navigation": {
+        "home": "Home",
+        "about": "About Us",
+        "services": "Services",
+        "contact": "Contacts",
+        "login": "Login",
+        "register": "Register"
+    },
+    "Footer": {
+        "name": "Silvia Vilar Cortinados",
+        "about": "About Us",
+        "privacyPolicy": "Privacy Policy",
+        "License": "License",
+        "Contact": "Contact"
+    },
+    "Login": {
+        "title": "Login to our platform",
+        "username": "Username",
+        "email": "Email",
+        "password": "Password",
+        "rememberMe": "Remember me",
+        "forgotPassword": "Forgot your password?",
+        "login": "Login",
+        "register": "Register",
+        "notRegistered": "Don't have an account?"
+    }
+}
