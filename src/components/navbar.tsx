@@ -28,6 +28,8 @@ export default function Navbar() {
     async function logout(){
       localStorage.removeItem('isAuthenticated');
       localStorage.removeItem('email');
+      // localStorage.removeItem('user');
+      // localStorage.removeItem('posts');
       setIsAuthenticated(false);
       window.location.href = '/';
     }
