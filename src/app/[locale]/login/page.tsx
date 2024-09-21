@@ -17,7 +17,7 @@ export default function LoginPage() {
     }
 
     const t = useTranslations('Login');
-    const locale = useLocale(); // Get the current locale
+    const locale = useLocale(); 
     const [email, setEmail] = useState<string>("");
     const [password, setPassword] = useState<string>("");
     const [users, setUsers] = useState<User[]>([]);
@@ -36,7 +36,6 @@ export default function LoginPage() {
     }, []);
 
     async function login() {
-        console.log("entrou")
         const user = users.find((user) => user.email === email && user.password === password);
         if (user) {
             console.log("User found");

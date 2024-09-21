@@ -27,5 +27,21 @@
         "login": "Login",
         "register": "Register",
         "notRegistered": "Don't have an account?"
+    },
+    "Profile": {
+        "title": "Profile",
+        "addPublication": "Add Publication",
+        "editPublication": "Edit Publication",
+        "editProfile": "Edit Profile",
+        "editButton": "Edit",
+        "deleteButton": "Delete",
+        "name": "Name",
+        "email": "Email",
+        "address": "Address",
+        "phoneNumber": "Phone Number",
+        "save": "Save",
+        "pubTitle": "Title",
+        "description": "Description",
+        "noPublications": "No publications found"
     }
 }

@@ -28,8 +28,8 @@ export default function Navbar() {
     async function logout(){
       localStorage.removeItem('isAuthenticated');
       localStorage.removeItem('email');
-      // localStorage.removeItem('user');
-      // localStorage.removeItem('posts');
+      localStorage.removeItem('user');
+      localStorage.removeItem('posts');
       setIsAuthenticated(false);
       window.location.href = '/';
     }
@@ -75,10 +75,13 @@ export default function Navbar() {
             </button>
             <h2 className="text-xl font-bold mb-4">Menu</h2>
             <ul>
-              <li className="mb-2"><a href="#home" className="text-black ">{t('home')}</a></li>
-              <li className="mb-2"><a href="#about" className="text-black ">{t('about')}</a></li>
-              <li className="mb-2"><a href="#services" className="text-black ">{t('services')}</a></li>
-              <li className="mb-2"><a href="#contact" className="text-black ">{t('contact')}</a></li>
+              <li className="mb-2"><a href={`/${locale}/`} className="text-black ">{t('home')}</a></li>
+              <li className="mb-2"><a href={`/${locale}/#about`} className="text-black ">{t('about')}</a></li>
+              <li className="mb-2"><a href={`/${locale}/#services`} className="text-black ">{t('services')}</a></li>
+              <li className="mb-2"><a href={`/${locale}/#contacts`} className="text-black ">{t('contact')}</a></li>
+              <li className="mb-2">
+                <Button label="Logout" onClick={logout} className="w-full shadow-lg bg-gray-200 px-2 py-1 rounded-2xl hover:bg-gray-400 " />
+              </li>
             </ul>
             <div className='flex items-center justify-center'>
               <LocalSwitcher />
@@ -117,7 +120,7 @@ export default function Navbar() {
                         <Button label="Perfil" className="w-full shadow-lg bg-white p-3 rounded-2xl hover:bg-gray-200" />
                     </Link>
                     <div>
-                      <Button label="Logout" onClick={logout} className="w-full shadow-lg bg-white p-3 rounded-2xl hover:bg-gray-200" />
+                      <Button label="Logout" onClick={logout} className="w-full shadow-lg bg-white p-3 rounded-2xl hover:bg-gray-200 hidden md:flex" />
                     </div>   
                 </>
             )}

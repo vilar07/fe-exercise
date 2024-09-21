@@ -6,7 +6,7 @@ import LocalSwitcher from "./local-switcher";
 
 export const Footer = () => {
     const t = useTranslations('Footer');
-    const locale = useLocale(); // Get the current locale
+    const locale = useLocale(); 
   return (
 
     <footer className='shadow'>
@@ -16,7 +16,6 @@ export const Footer = () => {
                     <Image
                     className='hover:scale-105 mr-3 rounded-full shadow-xl'
                     src={applicationLogo}
-                    // layout="fill"
                     width={100}
                     priority={true}
                     alt="SVCortinados Logo"

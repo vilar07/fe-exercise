@@ -27,5 +27,21 @@
         "login": "Login",
         "register": "Registar",
         "notRegistered": "Não tem conta?"
+    },
+    "Profile": {
+        "title": "Perfil",
+        "addPublication": "Adicionar Publicação",
+        "editPublication": "Editar Publicação",
+        "editProfile": "Editar Perfil",
+        "editButton": "Editar",
+        "deleteButton": "Apagar",
+        "name": "Nome",
+        "email": "Email",
+        "address": "Morada",
+        "phoneNumber": "Número de Telefone",
+        "save": "Guardar",
+        "pubTitle": "Título",
+        "description": "Descrição",
+        "noPublications": "Nenhuma publicação encontrada"
     }
 }
