@@ -5,21 +5,27 @@
       "email": "john.doe@example.com",
       "password": "hqcgul",
       "firstName": "John",
-      "lastName": "Doe"
+      "lastName": "Doe",
+      "address": "123 Elm Street, Springfield",
+      "phoneNumber": "+1234567890"
     },
     {
       "id": "2",
       "email": "jane.doe@example.com",
       "password": "blceov",
       "firstName": "Jane",
-      "lastName": "Doe"
+      "lastName": "Doe",
+      "address": "456 Oak Avenue, Springfield",
+      "phoneNumber": "+0987654321"
     },
     {
       "id": "3",
       "email": "sam.smith@example.com",
       "password": "aecpsa",
       "firstName": "Sam",
-      "lastName": "Smith"
+      "lastName": "Smith",
+      "address": "789 Pine Road, Springfield",
+      "phoneNumber": "+1122334455"
     }
   ],
   "posts": [

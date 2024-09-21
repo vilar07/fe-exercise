@@ -12,7 +12,9 @@ export default function LoginPage() {
         password: string;
         firstName: string;
         lastName: string;
-      }
+        phoneNumber: number;
+        address: string;
+    }
 
     const t = useTranslations('Login');
     const locale = useLocale(); // Get the current locale
@@ -38,7 +40,7 @@ export default function LoginPage() {
         const user = users.find((user) => user.email === email && user.password === password);
         if (user) {
             console.log("User found");
-            localStorage.setItem("user", email);
+            localStorage.setItem("email", email);
             localStorage.setItem("isAuthenticated", "true");
             window.location.href = `/${locale}/profile`;
         } else {
