@@ -13,6 +13,7 @@
  * Added responsiveness ✅
  * Added user verification for accessing profile page ✅
  * Added login and logout funcionality ✅
+ * Added a simple Homepage ✅
  * Used PrimeReact components and Icons ✅
 
 
